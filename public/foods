@@ -29,7 +29,7 @@
         "food_quantity": "20",
         "pickup_location": "Recreation Center",
         "expired_time": "48h",
-        "additional_notes": "Assorted sandwiches with a variety of fillings."
+        "additional_notes": "Assorted fruits with a variety of flavours."
     },
     {
         "food_image": "https://i.ibb.co/Gs3LJVR/Assorted-Breakfast-Pastries.jpg",
@@ -45,7 +45,7 @@
         "food_quantity": "24",
         "pickup_location": "Town Square",
         "expired_time": "60h",
-        "additional_notes": "A variety of freshly baked pastries for breakfast."
+        "additional_notes": "A variety of freshly baked goods for breakfast."
     },
     {
         "food_image": "https://i.ibb.co/7pWdphn/Gourmet-Cheese-and-Charcuterie-Platter.jpg",
