@@ -124,7 +124,7 @@ const Register = () => {
 
     return (
         <div className="px-5 py-10 lg:py-20 flex justify-center items-center">
-            <Helmet><title>Register - Community Food Sharing </title></Helmet>
+            <Helmet><title>Register - ShareBite </title></Helmet>
             <div className="flex-1 max-w-md bg-white rounded-lg shadow dark:border dark:bg-gray-600 dark:border-gray-700">
                 <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                     <h1 className="text-lg pb-8 font-semibold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
