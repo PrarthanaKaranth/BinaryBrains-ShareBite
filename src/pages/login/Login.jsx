@@ -73,7 +73,7 @@ const Login = () => {
 
     return (
         <>
-            <Helmet><title> logIn - Community Food Sharing </title></Helmet>
+            <Helmet><title> logIn - ShareBite </title></Helmet>
             <div className="flex justify-center items-center px-4 py-10 lg:py-20 gap-0 lg:gap-10 flex-col lg:flex-row">
                 <div className='hidden lg:block'>
                     <Lottie animationData={loginAnimation} repeat="false"></Lottie>
