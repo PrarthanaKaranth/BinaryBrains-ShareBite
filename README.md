@@ -13,3 +13,5 @@ TECH STACK:
 3.Database: Firebase for data storage.
 
 4.Interactive Chatbot for one on one communication with donor and reciever.
+
+Screenshots of the results: 
