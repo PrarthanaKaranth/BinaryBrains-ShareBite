@@ -74,7 +74,7 @@ const FoodEdit = () => {
 
     return (
         <>
-            <Helmet><title>Edit Food - Community Food Sharing </title></Helmet>
+            <Helmet><title>Edit Food - ShareBite</title></Helmet>
             <section className="py-8">
                 <div className="pt-4 pb-8 rounded-md px-4 mx-auto max-w-2xl dark:border dark:border-gray-700 shadow">
 
