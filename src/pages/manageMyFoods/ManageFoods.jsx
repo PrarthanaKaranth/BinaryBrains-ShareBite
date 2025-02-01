@@ -105,7 +105,7 @@ const ManageFoods = () => {
 
     return (
         <>
-            <Helmet><title>Manage Food - Community Food Sharing </title></Helmet>
+            <Helmet><title>Manage Food - ShareBite </title></Helmet>
             <div className="mt-8">
                 <h2 className="text-center text-3xl pb-7 dark:text-white"> My Donated Food {foods?.length} </h2>
             </div>
