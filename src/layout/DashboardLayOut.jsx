@@ -1,15 +1,15 @@
 import { Link, NavLink, Outlet } from "react-router-dom";
 import Footer from "../pages/footer/Footer";
 import useThemeMode from "../hooks/useThemeMode";
-import headerlogoblack from "../assets/Logo/header-logo_black.png"
-import headerlogowhite from "../assets/Logo/header-logo_white.png"
+import headerlogoblack from "../assets/Logo/header-logo_black.png";
+import headerlogowhite from "../assets/Logo/header-logo_white.png";
 import { useContext } from "react";
 import { AllContext } from "../provider/Authprovider";
-import "./mainLayout.css"
+import "./mainLayout.css";
 import { MdDarkMode } from 'react-icons/md';
 import { MdLightMode } from 'react-icons/md';
-import logoBlack from "../assets/Logo/logo_black.png"
-import logowhite from "../assets/Logo/logo_white.png"
+import logoBlack from "../assets/Logo/logo_black.png";
+import logowhite from "../assets/Logo/logo_white.png";
 
 // Dashboard imports
 import "./DashboardLayOut.css";
