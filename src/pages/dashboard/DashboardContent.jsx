@@ -1,13 +1,13 @@
-// eslint-disable-next-line no-unused-vars
+
 import React, { useState, useEffect } from 'react';
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 
-// Register Chart.js components
+
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 const Dashboard = () => {
-  // State for tracking donations, recipients, and food waste
+ 
   const [totalDonations, setTotalDonations] = useState(0);
   const [totalRecipients, setTotalRecipients] = useState(0);
   const [totalWasteReduced, setTotalWasteReduced] = useState(0);
@@ -25,9 +25,8 @@ const Dashboard = () => {
     ],
   });
 
-  // Simulate fetching data from an API or database
   useEffect(() => {
-    // Simulated fetch function for donations, recipients, and food waste
+    
     const fetchData = () => {
       setTotalDonations(1200);
       setTotalRecipients(900);
