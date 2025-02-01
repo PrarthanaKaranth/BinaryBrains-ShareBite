@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from 'react'; 
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { RouterProvider } from "react-router-dom";
@@ -14,11 +14,11 @@ const Chatbot = () => {
   useEffect(() => {
     // Inject Zoho SalesIQ Chatbot Script
     const script1 = document.createElement("script");
-    script1.innerHTML = `window.$zoho=window.$zoho || {}; $zoho.salesiq=$zoho.salesiq||{ready:function(){}}`;
+    script1.innerHTML = `window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}`;
     document.body.appendChild(script1);
 
     const script2 = document.createElement("script");
-    script2.src = "https://salesiq.zohopublic.in/widget?wc=siqbf73cdd032dc910bfc6e20ed48a0542a2b068cedda9327f365743b2fb9e88708";
+    script2.src = "https://salesiq.zohopublic.in/widget?wc=siqc8cd8033de6933b0731b9c3517d5060ba6e2932bf5ea829f1b23e048be669da6";
     script2.defer = true;
     document.body.appendChild(script2);
   }, []);
