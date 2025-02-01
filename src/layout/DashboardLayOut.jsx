@@ -154,18 +154,6 @@ const DashboardLayOut = () => {
                    </div>
 
                     {/* Page content here */}
-                    
-                    
-
-
-
-
-
-
-
-
-
-
                     <div className="dark:bg-gray-600">
                         <section className="dark:bg-gradient-to-b dark:from-gray-700 dark:to-gray-600">
 
@@ -279,24 +267,7 @@ const DashboardLayOut = () => {
                             <Footer></Footer>
                         </section>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 {/* page content end here */}
-
-
-
 
                 </div>
                 <div className="drawer-side">
@@ -360,10 +331,6 @@ const DashboardLayOut = () => {
 
 
         </>
-
-
-
-
 
     );
 };
