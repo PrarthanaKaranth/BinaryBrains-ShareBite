@@ -14,5 +14,4 @@ TECH STACK:
 
 4.Interactive Chatbot for one on one communication with donor and reciever.
 
-Screenshots of the results: 
-1) 
+
