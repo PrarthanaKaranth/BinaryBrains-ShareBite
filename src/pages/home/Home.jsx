@@ -10,7 +10,7 @@ const Home = () => {
 
     return (
         <>
-            <Helmet><title>Home - Community Food Sharing </title></Helmet>
+            <Helmet><title>Home - ShareBite </title></Helmet>
             <section className="container mx-auto">
                 <Slider></Slider>
             </section>
